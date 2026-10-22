@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6885f0bfb3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="form-cadastro" class="form-cadastro">
+        <h1> Cadastro Di Maestri </h1>
+        <div class="bonequinho-do-input">
+            <input placeholder="Usuário" type="text" required>
+        
+        </div>
+        <div class="bonequinho-do-input">
+            <input id="cad-senha" placeholder="Senha" type="password" minlength="6" required>
+            
+        </div>
+        <div class="bonequinho-do-input">
+            <input id="cad-confirma" placeholder="Confirmar senha" type="password" required>
+            
+        </div>
+        <div class="lembrar-e-esqueci">
+            <label>
+                <input type="checkbox" required>
+                Aceito os termos de uso
+            </label>
+        </div>
+        <button type="submit" class="login">Cadastrar</button>
+
+        <div class="cadastro">
+            <p>Já tem uma conta? <a href="index.html" id="ir-login">Fazer login</a></p>
+        </div>
+    </form>
+</body>
+</html>
